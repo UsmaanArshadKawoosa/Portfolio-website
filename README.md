@@ -111,4 +111,3 @@ Links visible in the site:
 
 ---
 
-If you'd like, the README can be shortened or expanded with screenshots, a live demo link, or sample commits. I did not add or change any visual or functional code in the site itself.
