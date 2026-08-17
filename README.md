@@ -1,5 +1,7 @@
 # Portfolio Website
 
+Live demo (official): https://portfolio-website-five-beta-33.vercel.app/
+
 A compact, static portfolio website for Usmaan Kawoosa. This repository contains a single-file static site (index.html) that showcases skills, experience, and projects dynamically loaded from GitHub.
 
 ## Overview
@@ -58,10 +60,17 @@ There is no build step or package.json in this repository.
 
 ## Deployment
 
-No deployment configuration (vercel.json, netlify.toml, etc.) is included. Deploy this repository as a static site on any provider that supports static hosting:
+Official live deployment: https://portfolio-website-five-beta-33.vercel.app/
 
-- GitHub Pages: push to a branch and enable Pages in repository settings.
-- Vercel / Netlify: connect the repo and deploy; they will serve index.html.
+This repository is deployed as a static site on Vercel (official live instance linked above). There is no vercel.json, GitHub Actions workflow, or other CI configuration included in this repository.
+
+To deploy or re-deploy on Vercel via Git integration:
+
+- Sign in to Vercel and import this Git repository.
+- For a single-file static site no build command is required; Vercel will serve index.html by default.
+- Connect the branch to deploy (commonly `main`). Pushes to that branch will trigger automatic deployments.
+
+Alternative hosts: GitHub Pages or Netlify can also serve the static site (no build step required).
 
 ## Customization
 
